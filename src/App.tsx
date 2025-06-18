@@ -4,7 +4,7 @@ import axios from "axios";
 import './index.css'; // This line imports your Tailwind CSS
 
 const CLIENT_ID = "17856528d9a9425cb280cd98ae2cf73e";
-const REDIRECT_URI = "http://127.0.0.1:5173/";
+const REDIRECT_URI = "https://spotify-bpm-runner.vercel.app/";
 const SCOPES =
   "user-read-playback-state user-modify-playback-state playlist-read-private streaming";
 
