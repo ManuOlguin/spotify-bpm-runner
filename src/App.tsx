@@ -8,7 +8,7 @@ const REDIRECT_URI = "http://127.0.0.1:5173/";
 const SCOPES =
   "user-read-playback-state user-modify-playback-state playlist-read-private streaming";
 
-const API_BASE = "http://localhost:3001/api";
+const API_BASE = "https://back-running-production-cd22.up.railway.app/api";
 
 function App() {
   const [token, setToken] = useState<string | null>(null);
